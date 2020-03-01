@@ -31,5 +31,4 @@
 
 **已知可用:**
 
-[StrongholdLocater.c](StrongholdLocater.c) ——基于一个Minecraft要塞定位器，需要6组坐标进行定位
-
+[StrongholdLocater.c](StrongholdLocater.c) ——基于六点三线取中值减少误差方法的Minecraft要塞定位器

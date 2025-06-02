@@ -1,1 +1,33 @@
-/output/
+# Gradle files
+.gradle/
+build/
+out/
+
+# Generated sources and classes
+bin/
+*.class
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse files
+.settings/
+.project
+.classpath
+
+# VS Code files
+.vscode/
+
+# Mac OS files
+.DS_Store
+
+# Logs and temp files
+*.log
+*.swp
+*.bak
+
+# Continue plug-in files
+.continue/

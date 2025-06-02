@@ -2,13 +2,14 @@ name: Conventional Commits Verification
 on:
   push:
     branches:
-      - main
+      - '**'  # 检查所有分支
   pull_request:
     branches:
+      - '**'  # 检查所有 PR 的目标分支
 
 jobs:
   verify-commits:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest  # 使用最新稳定版
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
